@@ -1,0 +1,154 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#work {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+#list {
+	background-color: #BFE7D9;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	padding-top: 50px;
+	border: 1px solid #BFE7D9;
+	border-radius: 15px;
+}
+#list #addTask {
+	width: 27.8vw;
+	background-color: white;
+	font-size:  30px;
+	padding: 10px;
+	border-radius: 7px;
+	display: flex;
+	box-shadow: 5px 5px 35px #FAACAC;
+}
+#addTask .fa-search{
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#addTask input{
+	font-size: 15px;
+	padding: 0.5vw;
+	padding-left: 10px;
+	padding-right: 4vw;
+	border: 1px solid white;
+	outline: none;
+}
+#addTask * {
+	margin-left: 10px;
+}
+#addTask #type {
+	position: relative;
+}
+#type button {
+	background-color: white;
+	font-size: 15px;
+	padding: 1vw;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	border: none;
+	border-left: 2px solid #9E9EA7;
+}
+#type #TypeList{
+	width: 80%;
+	font-size: 15px; 
+	list-style: none;
+	position: absolute;
+	left: 0;
+	margin-top: 15px;
+	display: none;
+}
+
+#type #TypeList li {
+	background-color: white;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+#type #TypeList li:first-child {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#type #TypeList li:last-child {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#type #TypeList li:hover {
+	background-color: #D3D7DD;
+}
+#type #TypeList li div {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+#work #Task {
+	width: 27.7vw;
+	margin-top: 70px;
+}
+#Task .job {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-radius: 7px;
+	margin-top: 10px;
+	transform: scale(0);
+	transition: 1s;
+}
+#Task .job p {
+	font-size: 20px;
+	padding: 10px;
+}
+#Task .job div {
+	display: flex;
+	flex-direction: column;
+}
+#Task .job div button {
+	width: 7.3vw;
+	height: 5vh;
+	background-color: white;
+	font-size: 15px;
+	padding: 1vw;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	border: none;
+	border-left: 2px solid #9E9EA7;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#Task .job div button i{
+	font-size: 20px;
+	position: absolute;
+	left: 3.3vw;
+	transform: scale(0);
+	transition: 0.5s;
+}
+#Task .job div button:hover span {
+	display: none;
+}
+#Task .job div button:hover i {
+	transform: scale(1);
+}
+#taskCompleted {
+	width: 40vw;
+}

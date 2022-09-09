@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=New+Tegomin&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<form onsubmit="return addUser(event)" action="">
+			<p>Form</p>
+			<div class="input">
+				<label for="username">Name:</label>
+				<input type="text" id="username" placeholder="Enter your name" value="">
+				<input type="submit" name="add" value="Add" class="add"/>
+			</div>
+		</form>
+		<div class="list">
+			<p>List</p>
+			<ul>
+			
+			</ul>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

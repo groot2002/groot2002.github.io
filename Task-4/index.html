@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<form action="">
+		<div>
+			<label for="username" class="tag">
+				Your Full Name:
+			</label>
+			<label for="user-age" class="tag">
+				Your Age:
+			</label>		
+		</div>
+		<div style="width: 15vw">
+			<input type="text" id="username" placeholder="Enter your full name">
+			<input type="number" id="user-age" placeholder="Enter your age">
+			<center>
+				 <button type="button" class="btn btn-primary" data-toggle="modal" onclick=add()>
+           			Add
+     			 </button>
+      			<div class="modal" id="myModal">
+        			<div class="modal-dialog">
+           				<div class="modal-content">      
+               				<div class="modal-header">
+                  				<h4 class="modal-title">Warning</h4>
+                  				<button type="button" class="close" data-dismiss="modal">&times;</button>
+               				</div>       
+               				<div class="modal-body">
+                  				Your name or your age is invalid. Please check again.
+               				</div> 
+               				<div class="modal-footer">
+                  				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+               				</div>
+            			</div>
+         			</div>
+      			</div>	
+      			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+			</center>
+		</div>
+	</form>
+	<div id="block">
+		<div id="name" style="border-right: 1px solid black;">
+			<p>Full Name</p>
+		</div>
+		<div id="age">
+			<p>Age</p>
+		</div>
+	</div>
+	<hr>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

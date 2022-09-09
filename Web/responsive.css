@@ -1,0 +1,54 @@
+@media (max-width: 740px){
+	.about-me {
+		height: 65vw;
+	}
+	.about-me .detail {
+		height: 50vw;
+		top: -3vh;
+	}
+	.about-me .detail .my-inf * {
+		margin-top: 0.9vh;
+	}
+	.about-me .detail .my-inf {
+		font-size: 1vh;
+	}
+	.about-me .detail .my-inf #skills .skill .percent-skill {
+		height: 1vw;
+	}
+	#services {
+		height: 60vh;
+	}
+	.introduction .text-intro button {
+		height: 4vh;
+	}
+	.introduction .text-intro button:hover i {
+		transform: translateY(-2vh);
+	}
+}
+@media (min-width: 740px) and (max-width:1023px){
+	.about-me {
+		height: 65vw;
+	}
+	.about-me .detail {
+		height: 50vw;
+		top: -3vh;
+	}
+	.about-me .detail .my-inf * {
+		margin-top: 0.9vh;
+	}
+	.about-me .detail .my-inf {
+		font-size: 1vh;
+	}
+	.about-me .detail .my-inf #skills .skill .percent-skill {
+		height: 1vw;
+	}
+	#services {
+		height: 60vh;
+	}
+	.introduction .text-intro button {
+		height: 4vh;
+	}
+	.introduction .text-intro button:hover i {
+		transform: translateY(-2vh);
+	}
+}

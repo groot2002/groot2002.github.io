@@ -1,0 +1,138 @@
+html {
+	width: 100%;
+	background-color: rgb(40,45,48);
+}
+#list-menu {
+	width: 100%;
+	margin-top: 40px;
+	position: relative;
+}
+#list-menu .left-item {
+	color: #f48847;
+	font-size: 20px;
+	font-family: 'Shippori Mincho',sans-serif;
+	text-decoration: none;
+	margin-left: 30px;
+}
+#list-menu .mid-item {
+	color: #f48847;
+	font-size: 30px;
+	font-family: 'Shippori Mincho',sans-serif;
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+}
+#list-menu .right-item {
+	color: #f48847;
+	font-size: 20px;
+	text-decoration: none;
+	position: relative;
+	top: 3px;
+	left: 50vw;
+	margin-right: 20px;
+}
+#intro {
+	width: 100%;
+	margin-top: 13%;
+}
+#intro .p1 {
+	color: #f48847;
+	font-size: 60px;
+}
+#intro .p2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Sorts Mill Goudy',sans-serif;
+	position: relative;
+	bottom:30px;
+}
+#first-img {
+	width: 90%;
+	height: 90vh;
+	margin-top:10%;
+	margin-left: 4.5%;
+}
+#paragraph {
+	width: 40%;
+	height: 30%;
+	position: relative;
+	left: 32%;
+}
+#paragraph .p1 {
+	color: #f48847;
+	font-size: 60px;
+}
+#paragraph .p2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Sorts Mill Goudy',sans-serif;
+	text-align: center;
+ 	position: relative;
+ 	bottom: 30px
+}
+#item {
+	width:100%;
+	height: 100vh;
+	margin-top: 20vh;
+	position: relative;
+}
+#item .title {
+	color: white;
+	font-size: 20px;
+}
+#item #first-item {
+	position: absolute;
+	left: 10%;
+}
+#item #secound-item {
+	position: absolute;
+	right: 15%;
+	top: 0;
+}
+#letter {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	margin-top: 50px;
+	margin-left: -1.8vw;
+	background-color: rgb(233,206,176);
+}
+#text {
+	width: 30vw;
+	height: 50vh;
+	color: #f48847;
+	padding : 100px 100px 50px 100px;
+	background-color: white;
+	position: absolute;
+	right: 5%;
+	top: 15%;
+}
+#text #p1 {
+	font-size:40px;
+	position: absolute;
+	top: 5%;
+}
+#text #p2 {
+	font-size: 20px;
+	font-family: 'Sorts Mill Goudy',sans-serif;
+	margin-top: 90px;
+}
+#text button {
+	font-size: 15px;
+	color: white;
+	background-color: #f48847;
+	border: 2px solid #f48847;
+	padding: 20px;
+	margin-top: 6%;
+}
+#last-block .icon {
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+}
+#last-block .paragraph {
+	color: white;
+	font-size: 20px;
+	margin-top: 80px;
+}

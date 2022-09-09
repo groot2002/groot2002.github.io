@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS training</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body onload=test1>
+	<div class="assignment">
+		<p>Input</p>
+		<div>
+			<input type="text" placeholder="Bài 1 : Viết chương trình Javascript để hiện thị ngày giờ" class="input" value="">
+			<button id="button-1" onclick=test1()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+		<input type="text" placeholder="Bài 2 : Viết chương trình để in ra ngày tháng năm theo các định dạng mm-dd-yyyy, mm/dd/yyyy, dd-mm-yyyy, dd/mm/yyyy" class="input">
+		<button id="button-2" value="">
+			<i class="fas fa-caret-right"></i>
+			<span>Run</span>
+		</button>
+		</div>
+		<div>
+			<input type="text" placeholder="Bài 3 : Viết chương trình JavaScript để kiểm tra xem một số nguyên đã cho có chuỗi chữ số tăng hay không" class="input" value="">
+			<button id="button-3" onclick=test3()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+			<input type="text" placeholder="Bài 4 : Viết một chương trình JavaScript để thay thế mọi ký tự trong một chuỗi đã cho với ký tự theo sau nó trong bảng chữ cái" class="input" value="">
+			<button id="button-4" onclick=test4()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+			<input type="text" placeholder="Bài 5 : Viết chương trình JavaScript để tạo chuỗi bằng cách sử dụng ba ký tự ở giữa của một chuỗi có độ dài lẻ. Độ dài chuỗi phải lớn hơn hoặc bằng ba." class="input" value="">
+			<button id="button-5" onclick=test5()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+			<input type="text" placeholder="Bài 6 : Viết chương trình hiển thị số xuất hiện nhiều lần nhất trong mảng" class="input" value="">
+			<button id="button-6" onclick=test6()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+			<input type="text" placeholder="Bài 7 : Viết chương trình để kiểm tra xem chuỗi chứa &#39;java&#39; hay không" class="input" value="">
+			<button id="button-7" onclick=test7()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+			<input type="text" placeholder="Bài 8 : Viết một hàm để lấy tên tháng từ một số cụ thể ( ví dụ : 1 – Tháng một )" class="input" value="">
+			<button id="button-8" onclick=test8()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+			<input type="text" placeholder="Bài 9: Viết một hàm JavaScript nhập một chuỗi và tìm từ dài nhất trong chuỗi" class="input" value="">
+			<button id="button-9" onclick=test9()>
+				<i class="fas fa-caret-right"></i>
+				<span>Run</span>
+			</button>
+		</div>
+		<div>
+			<form action="">
+				<input type="text" name="" placeholder="Test 10: Enter a" id="a-test10">
+				<input type="text" id="b-test10" placeholder="Test 10: Enter b" class="input" value="">
+				<button type="button" id="button-10" onclick=test10()>
+					<i class="fas fa-caret-right"></i>
+					<span>Run</span>
+				</button>
+			</form>
+		</div>
+	</div>
+	<div class="answer">
+		<p>Output</p>
+		<input type="text" disabled placeholder="Output of test 1" class="output" value="" onload=test1()>
+		<input type="text" disabled placeholder="Output of test 2" class="output" value="">
+		<input type="text" disabled placeholder="Output of test 3" class="output" value="">
+		<input type="text" disabled placeholder="Output of test 4" class="output" value="">
+		<input type="text" disabled placeholder="Output of test 5" class="output" value="">
+		<input type="text" disabled placeholder="Output of test 6" class="output" value="">
+		<input type="text" disabled placeholder="Output of test 7" class="output" value="">
+		<input type="text" disabled placeholder="Output of test 8" class="output" value="">
+		<input type="text" disabled placeholder="Output of test 9" class="output" value="">
+		<input type="text" placeholder="Output of test 10" class="output" value="">
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
